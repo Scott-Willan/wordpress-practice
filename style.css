@@ -1,0 +1,367 @@
+/*
+Theme name: NZRise-Custom
+Author: Scott Willan
+Date: 27/June/2017
+Version: 0.0.1
+*/
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+a:link,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1em 0;
+	font-weight: normal;
+}
+
+/* General Layout */
+div.container {
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Content Area */
+article.post {
+	border-bottom: 1px dotted #DDD;
+	margin-bottom: 20px;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/*Aside Styles */
+article.post-aside,
+article.post-link {
+	font-size: 125%;
+	background-color: #aabbff;
+	border-radius: 4px;
+	padding: 20px  100px;
+}
+
+article.post-link {
+	padding: 0;
+	background-color: #8bc34a;
+}
+
+article.post-link a{
+	display: block;
+	padding: 20px;
+}
+
+article.post-gallery {
+	background-color: #555555;
+	color: #DDD;
+	padding: 20px 100px;
+}
+
+article.post-gallery img {
+	border: none !important;
+
+}
+
+article.post-gallery h2 {
+	text-align: center;
+}
+
+.mini-meta {
+	font-size: 50%;
+	color: #696969;
+}
+
+/* Header */
+.site-header {
+	border: none; 
+}
+
+.site-header h1 {
+	margin: 0;
+}
+
+.site-header h1 a:link,
+.site-header h1 a:visited {
+	text-decoration: none;
+}
+
+.site-header h5 {
+	margin: 0;
+}
+
+/* Navigation Menus */
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav li {
+	list-style: none;
+	float: left;
+}
+
+/* Header Links */
+.site-header nav {
+	margin-top: 30px;
+}
+
+.site-header nav ul li {
+	margin-left: 5px;
+	float: right;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	text-decoration: none;	
+}
+
+.site-header nav ul li a:hover {
+	background-color: #eeeeee;
+	border-radius: 4px;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link, 
+.site-header nav ul li.current-page-ancestor a:visited {
+	background-color: #8bc34a;
+	color: white;
+	border-radius: 4px;
+}
+
+/*Main Column*/
+.main-column {
+	width: 66%;
+	float: left;
+}
+
+/*Secondary Column*/
+.secondary-column{
+	width: 30%;
+	float: right;
+}
+
+/* Footer Widget Area */
+.footer-widget-area {
+	width: 25%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+/* Footer */
+.site-footer {
+	background-color: #8bc34a;
+	margin-left: none;
+	margin-right: none;
+}
+
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #DDD;
+}
+
+.site-footer nav ul li:last-of-type {
+	border-right: none;
+}
+
+/* Pages Layout */
+article.page h2 {
+
+}
+
+/*Post Columns*/
+.home-columns {
+	padding-top: 30px;
+}
+
+.one-half {
+	width: 45%;
+	float: left;
+	margin-right: 10%;
+}
+
+.last{
+	margin-right: 0;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+/* Two Column Title Text Layout */
+div.title-column {
+	width: 30%;
+	float: left;
+}
+
+div.text-column {
+	width: 70%;
+	float: right;
+}
+
+
+
+/* Info-Box */
+div.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	background-color: #efefef;
+}
+
+div.info-box h4 {
+	margin-bottom: 6px;
+}
+
+div.info-box p {
+	font-size: 85%;
+}
+
+/* Children Links */
+.children-links {
+	margin-bottom: 20px;
+	font-size: 80%;
+}
+
+.children-links a:link,
+.children-links a:visited {
+	text-decoration: none;
+}
+
+.children-links ul {
+	float: left;
+}
+
+.children-links li {
+	margin-right: 20px;
+}
+
+.children-links .parent-link{
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #ddd;
+	font-size: 120%;
+	font-weight: bold;
+	color: #333;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
+	color: #333;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
+	border-bottom: 1px solid #DDD;
+	color: #333;
+	cursor: default;
+}
+
+/*Post Styles*/
+.post h2{
+	margin-bottom: 0;
+}
+
+p.post-info {
+	font-size: 85%;
+	color: #696969;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Image Styles */
+img {
+	max-width: 100%;
+}
+
+.has-thumbnail {
+	position: relative;
+	padding-left: 200px;
+}
+
+.post-thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Search */
+.hd-search {
+	float: right;
+}
+
+div.hd-search .screen-reader-text {
+	position: absolute;
+	left: -99990px;
+}
+
+div.hd-search .search-submit {
+	background-color: #8bc34a;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 14px;
+	border: none;
+	border-radius: 5px;
+	vertical-align: top;
+}
+
+div.hd-search .search-field {
+	vertical-align: top;
+	padding: 3px;
+}
+
+/*Footer Callout */
+.footer-callout {
+	background-color: grey;
+	padding: 20px;
+	margin: 30px 0 0 0;
+}
+
+.footer-callout-image{
+	float: left;
+	width: 30%;
+}
+
+.footer-callout-text {
+	float: right;
+	width: 60%;
+}
+
+.footer-callout-text h2 {
+	font-size: 1.7rem;
+	margin: 0 0 .35rem 0;
+}
+
+.footer-callout-text p {
+	font-size: .9rem;
+}
